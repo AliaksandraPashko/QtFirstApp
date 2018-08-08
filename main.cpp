@@ -5,8 +5,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QLabel *label = new QLabel("Hello");
-    label->resize(100,200);
-    label->show();
+    MainWindow w;
+    w.show();
+
     return a.exec();
 }
